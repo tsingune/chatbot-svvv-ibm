@@ -1,20 +1,37 @@
-<html>
-<title> SVVV Counselling Bot </title>
-<center> <h2> Welcome see at bottom right </h2></center>
-<center><h4>Tushar Singune</h4></center>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>SVVV BOT</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+  </style>
+</head>
 
- <script>
+<body>
+  <center>
+    <h2 style="font-family: roboto;"> This is counselling bot demo for SVVV</h2>
+    <h2 style="font-family: roboto;">Please check right bottom of browser</h2>
+  </center>
+
+  <center>
+    <h3 style="font-family: roboto;"><b>Tushar Singune</b></h3>
+  </center>
+
+</body>
+<script>
   window.watsonAssistantChatOptions = {
-      integrationID: "5c8ee7dd-2e41-4fb8-84b8-391b953afc7a", // The ID of this integration.
-      region: "eu-gb", // The region your integration is hosted in.
-      serviceInstanceID: "a0f07b34-e61e-485b-8e1f-1e0615c7f8a2", // The ID of your service instance.
-      onLoad: function(instance) { instance.render(); }
-    };
-  setTimeout(function(){
-    const t=document.createElement('script');
-    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    integrationID: "5c8ee7dd-2e41-4fb8-84b8-391b953afc7a", // The ID of this integration.
+    region: "eu-gb", // The region your integration is hosted in.
+    serviceInstanceID: "a0f07b34-e61e-485b-8e1f-1e0615c7f8a2", // The ID of your service instance.
+    onLoad: function (instance) { instance.render(); }
+  };
+  setTimeout(function () {
+    const t = document.createElement('script');
+    t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
     document.head.appendChild(t);
   });
 </script>
